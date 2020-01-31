@@ -1,4 +1,4 @@
-<img width="256" src="https://raw.githubusercontent.com/coldly/zhlang/master/logo/zh.png">
+<img width="256" src="./logo/zh.png">
 
 # The ZH Programming Language
 
