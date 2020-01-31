@@ -1,6 +1,6 @@
 <img width="256" src="./logo/zh.png">
 
-# The ZH Programming Language
+# The Zh Programming Language
 
 [![CI](https://github.com/coldly/zhlang/workflows/CI/badge.svg)](https://github.com/coldly/zhlang/commits/master)
 
@@ -12,17 +12,17 @@ Changelog: [github.com/coldly/zhlang/blob/master/CHANGELOG.md](https://github.co
 
 Speed Test: [fast.zhlang.org](https://fast.zhlang.org/) (monitors compilation speed for each commit to verify there are no speed regressions)
 
-Installing ZH: [github.com/coldly/zhlang#installing-zh-from-source](https://github.com/coldly/zhlang#installing-zh-from-source)
+Installing Zh: [github.com/coldly/zhlang#installing-zh-from-source](https://github.com/coldly/zhlang#installing-zh-from-source)
 
 
-## Key Features of ZH
+## Key Features of Zh
 
 - Simplicity: the language can be learned in less than an hour
 - Fast compilation: ≈100k — 1.2 million loc/s
-- Easy to develop: ZH compiles itself in less than a second
+- Easy to develop: Zh compiles itself in less than a second
 - Performance: within 3% of C
 - Safety: no null, no globals, no undefined behavior, immutability by default
-- C to ZH translation
+- C to Zh translation
 - Hot code reloading
 - [Cross-platform UI library](https://github.com/coldly/zhlang/ui)
 - Built-in graphics library
@@ -31,9 +31,9 @@ Installing ZH: [github.com/coldly/zhlang#installing-zh-from-source](https://gith
 - Built-in ORM
 - C and JavaScript backends
 
-A stable 0.2 release is planned for January 2020. Right now ZH is in an alpha stage.
+A stable 0.2 release is planned for January 2020. Right now Zh is in an alpha stage.
 
-## Installing ZH from source
+## Installing Zh from source
 
 ### Linux, macOS, Windows, *BSD, Solaris, WSL, Android, Raspbian
 
@@ -43,11 +43,11 @@ cd zhlang
 make
 ```
 
-That's it! Now you have a ZH executable at `[path to ZH repo]/zh`. `[path to ZH repo]` can be anywhere.
+That's it! Now you have a Zh executable at `[path to Zh repo]/zh`. `[path to Zh repo]` can be anywhere.
 
 (On Windows `make` means running `make.bat`, so make sure you use `cmd.exe`.)
 
-ZH is being constantly updated. To update ZH, simply run:
+Zh is being constantly updated. To update Zh, simply run:
 
 ```
 zh up
@@ -65,7 +65,7 @@ Otherwise, follow these instructions:
 
 ### Symlinking
 
-You can create a `/usr/local/bin/zh` symlink so that ZH is globally available:
+You can create a `/usr/local/bin/zh` symlink so that Zh is globally available:
 
 ```bash
 sudo ./zh symlink
